@@ -1,5 +1,5 @@
 {
-    "name": "gotit-api-php-sdk",
+    "name": "dayonevn/gotit-api-php-sdk",
     "description": "Technical document APIs for API Version 4.",
     "keywords": [
         "openapitools",

@@ -1,4 +1,4 @@
-# gotit_api_php_sdk
+# gotit-api-php-sdk
 
 Technical document APIs for API Version 4.
 
@@ -19,11 +19,11 @@ To install the bindings via [Composer](https://getcomposer.org/), add the follow
   "repositories": [
     {
       "type": "vcs",
-      "url": "https://github.com/GIT_USER_ID/GIT_REPO_ID.git"
+      "url": "https://github.com/Dayone-Joint-Stock-Company/gotit-api-php-sdk.git"
     }
   ],
   "require": {
-    "GIT_USER_ID/GIT_REPO_ID": "*@dev"
+    "dayonevn/gotit-api-php-sdk": "1.0.0"
   }
 }
 ```
@@ -36,7 +36,7 @@ Download the files and include `autoload.php`:
 
 ```php
 <?php
-require_once('/path/to/gotit_api_php_sdk/vendor/autoload.php');
+require_once('/path/to/gotit-api-php-sdk/vendor/autoload.php');
 ```
 
 ## Getting Started
