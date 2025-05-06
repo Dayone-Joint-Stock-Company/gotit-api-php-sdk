@@ -193,9 +193,32 @@ You can run an example Laravel application that uses this SDK with Docker and Do
    ```
    This will build the PHP application image, start MySQL, Nginx, and the PHP-FPM containers.
 
-3. **Access the application:**
-   - Open your browser and go to [http://localhost:5002](http://localhost:5002)
+The example application will be available at `http://localhost:5002`
+### Available Endpoints
 
+#### Voucher Endpoints
+- `GET /vouchers/e` - Create E voucher
+- `GET /vouchers/v` - Create V voucher
+- `GET /vouchers/g` - Create G voucher
+- `GET /vouchers/send_sms` - Send voucher via SMS
+- `GET /vouchers/send_email` - Send voucher via Email
+- `GET /vouchers/send_zns` - Send voucher via ZNS
+- `GET /vouchers/check_zns` - Check ZNS status
+- `GET /vouchers/check_status_voucher` - Check voucher status
+
+#### Brand Endpoints
+- `GET /brands` - List all brands
+- `GET /brands/{id}` - Get brand details
+- `GET /brands/brand_product` - Get brand products
+
+#### Category Endpoints
+- `GET /categories` - List all categories
+- `GET /categories/category_product` - Get category products
+
+#### Product Endpoints
+- `GET /products` - List all products
+- `GET /products/{id}` - Get product details
+- `GET /products/{id}/stores` - Get product stores
 ### Example Directory Structure
 
 - `example/docker-compose.yml` — Docker Compose configuration
